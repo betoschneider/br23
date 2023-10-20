@@ -1,0 +1,381 @@
+﻿no_partida;rodada;time_mandante;gols_mandante;gols_visitante;time_visitante;dt_atualizacao
+3;1;Palmeiras;2;1;Cuiabá;16/10/2023
+10;1;América;0;3;Fluminense;16/10/2023
+2;1;Botafogo;2;1;São Paulo;16/10/2023
+5;1;Red Bull Bragantino;2;1;Bahia;16/10/2023
+8;1;Athletico;2;0;Goiás;16/10/2023
+9;1;Fortaleza;1;1;Internacional;16/10/2023
+6;1;Atlético;1;2;Vasco da Gama;16/10/2023
+1;1;Flamengo;3;0;Coritiba;16/10/2023
+4;1;Corinthians;2;1;Cruzeiro;16/10/2023
+7;1;Grêmio;1;0;Santos;16/10/2023
+11;2;Fluminense;2;0;Athletico;16/10/2023
+13;2;São Paulo;3;0;América;16/10/2023
+20;2;Cuiabá;1;1;Red Bull Bragantino;16/10/2023
+16;2;Cruzeiro;1;0;Grêmio;16/10/2023
+17;2;Internacional;2;1;Flamengo;16/10/2023
+12;2;Vasco da Gama;2;2;Palmeiras;16/10/2023
+14;2;Santos;0;0;Atlético;16/10/2023
+18;2;Coritiba;0;3;Fortaleza;16/10/2023
+15;2;Goiás;3;1;Corinthians;16/10/2023
+19;2;Bahia;1;2;Botafogo;16/10/2023
+28;3;Coritiba;1;1;São Paulo;16/10/2023
+29;3;Fortaleza;4;2;Fluminense;16/10/2023
+23;3;Palmeiras;2;1;Corinthians;16/10/2023
+24;3;Santos;3;2;América;16/10/2023
+25;3;Red Bull Bragantino;0;3;Cruzeiro;16/10/2023
+26;3;Atlético;2;1;Athletico;16/10/2023
+21;3;Flamengo;2;3;Botafogo;16/10/2023
+27;3;Internacional;1;0;Goiás;16/10/2023
+30;3;Cuiabá;1;2;Grêmio;16/10/2023
+22;3;Vasco da Gama;0;1;Bahia;16/10/2023
+36;4;Cruzeiro;2;1;Santos;16/10/2023
+31;4;Fluminense;1;1;Vasco da Gama;16/10/2023
+40;4;América;1;2;Cuiabá;16/10/2023
+33;4;São Paulo;2;0;Internacional;16/10/2023
+38;4;Athletico;2;1;Flamengo;16/10/2023
+39;4;Bahia;3;1;Coritiba;16/10/2023
+32;4;Botafogo;2;0;Atlético;16/10/2023
+35;4;Goiás;0;5;Palmeiras;16/10/2023
+37;4;Grêmio;3;3;Red Bull Bragantino;16/10/2023
+34;4;Corinthians;1;1;Fortaleza;16/10/2023
+44;5;Santos;3;0;Bahia;16/10/2023
+45;5;Red Bull Bragantino;2;2;América;16/10/2023
+47;5;Internacional;0;2;Athletico;16/10/2023
+41;5;Flamengo;2;0;Goiás;16/10/2023
+50;5;Cuiabá;0;4;Atlético;16/10/2023
+43;5;Palmeiras;4;1;Grêmio;16/10/2023
+46;5;Cruzeiro;0;2;Fluminense;16/10/2023
+42;5;Botafogo;3;0;Corinthians;16/10/2023
+48;5;Coritiba;1;1;Vasco da Gama;16/10/2023
+49;5;Fortaleza;0;0;São Paulo;16/10/2023
+59;6;Bahia;2;3;Flamengo;16/10/2023
+51;6;Fluminense;2;0;Cuiabá;16/10/2023
+53;6;Palmeiras;1;1;Red Bull Bragantino;16/10/2023
+56;6;Atlético;2;0;Internacional;16/10/2023
+52;6;Vasco da Gama;0;1;Santos;16/10/2023
+54;6;Corinthians;1;1;São Paulo;16/10/2023
+57;6;Grêmio;0;0;Fortaleza;16/10/2023
+55;6;Goiás;2;1;Botafogo;16/10/2023
+58;6;Athletico;3;2;Coritiba;16/10/2023
+60;6;América;0;4;Cruzeiro;16/10/2023
+69;7;Bahia;1;1;Goiás;16/10/2023
+70;7;América;2;1;Fortaleza;16/10/2023
+65;7;Red Bull Bragantino;2;0;Athletico;16/10/2023
+62;7;Botafogo;1;0;Fluminense;16/10/2023
+63;7;São Paulo;4;2;Vasco da Gama;16/10/2023
+68;7;Coritiba;1;2;Atlético;16/10/2023
+64;7;Santos;0;0;Palmeiras;16/10/2023
+61;7;Flamengo;1;0;Corinthians;16/10/2023
+67;7;Grêmio;3;1;Internacional;16/10/2023
+66;7;Cruzeiro;0;1;Cuiabá;16/10/2023
+79;8;Fortaleza;2;0;Vasco da Gama;16/10/2023
+78;8;Athletico;1;2;Grêmio;16/10/2023
+71;8;Flamengo;1;1;Cruzeiro;16/10/2023
+80;8;Cuiabá;1;1;Coritiba;16/10/2023
+73;8;São Paulo;2;1;Goiás;16/10/2023
+74;8;Corinthians;2;0;Fluminense;16/10/2023
+77;8;Internacional;2;0;Bahia;16/10/2023
+76;8;Atlético;1;1;Palmeiras;16/10/2023
+75;8;Red Bull Bragantino;2;0;Santos;16/10/2023
+72;8;Botafogo;2;0;América;16/10/2023
+89;9;Fortaleza;0;0;Bahia;16/10/2023
+88;9;Athletico;1;0;Botafogo;16/10/2023
+86;9;Cruzeiro;0;1;Atlético;16/10/2023
+90;9;América;2;0;Corinthians;16/10/2023
+84;9;Santos;1;1;Internacional;16/10/2023
+81;9;Fluminense;2;1;Red Bull Bragantino;16/10/2023
+87;9;Grêmio;2;1;São Paulo;16/10/2023
+83;9;Palmeiras;3;1;Coritiba;16/10/2023
+85;9;Goiás;0;1;Cuiabá;16/10/2023
+82;9;Vasco da Gama;1;4;Flamengo;16/10/2023
+98;10;Coritiba;0;0;Santos;16/10/2023
+94;10;Corinthians;1;1;Cuiabá;16/10/2023
+96;10;Atlético;1;1;Red Bull Bragantino;16/10/2023
+99;10;Bahia;2;2;Cruzeiro;16/10/2023
+92;10;Botafogo;2;0;Fortaleza;16/10/2023
+100;10;América;2;2;Athletico;16/10/2023
+97;10;Internacional;2;1;Vasco da Gama;16/10/2023
+93;10;São Paulo;0;2;Palmeiras;16/10/2023
+91;10;Flamengo;3;0;Grêmio;16/10/2023
+95;10;Goiás;2;2;Fluminense;16/10/2023
+103;11;São Paulo;2;1;Athletico;16/10/2023
+106;11;Cruzeiro;0;1;Fortaleza;16/10/2023
+104;11;Santos;0;2;Corinthians;16/10/2023
+101;11;Fluminense;1;1;Atlético;16/10/2023
+109;11;Bahia;1;0;Palmeiras;16/10/2023
+107;11;Grêmio;3;1;América;16/10/2023
+102;11;Vasco da Gama;0;1;Goiás;16/10/2023
+108;11;Coritiba;0;1;Internacional;16/10/2023
+110;11;Cuiabá;0;1;Botafogo;16/10/2023
+105;11;Red Bull Bragantino;4;0;Flamengo;16/10/2023
+118;12;Athletico;1;0;Corinthians;16/10/2023
+111;12;Fluminense;2;1;Bahia;16/10/2023
+119;12;Fortaleza;2;1;Atlético;16/10/2023
+116;12;Cruzeiro;1;0;São Paulo;16/10/2023
+113;12;Palmeiras;0;1;Botafogo;16/10/2023
+117;12;Grêmio;5;1;Coritiba;16/10/2023
+114;12;Santos;2;3;Flamengo;16/10/2023
+115;12;Red Bull Bragantino;2;0;Goiás;16/10/2023
+120;12;América;1;2;Internacional;16/10/2023
+112;12;Vasco da Gama;1;0;Cuiabá;16/10/2023
+123;13;São Paulo;1;0;Fluminense;16/10/2023
+121;13;Flamengo;2;0;Fortaleza;16/10/2023
+129;13;Bahia;1;2;Grêmio;16/10/2023
+127;13;Internacional;0;0;Cruzeiro;16/10/2023
+124;13;Corinthians;0;1;Red Bull Bragantino;16/10/2023
+122;13;Botafogo;2;0;Vasco da Gama;16/10/2023
+126;13;Atlético;2;2;América;16/10/2023
+128;13;Athletico;2;2;Palmeiras;16/10/2023
+130;13;Cuiabá;3;0;Santos;16/10/2023
+125;13;Goiás;1;2;Coritiba;16/10/2023
+140;14;Cuiabá;1;1;Bahia;16/10/2023
+132;14;Vasco da Gama;0;1;Cruzeiro;16/10/2023
+138;14;Coritiba;3;1;América;16/10/2023
+136;14;Atlético;0;1;Corinthians;16/10/2023
+133;14;Palmeiras;1;1;Flamengo;16/10/2023
+134;14;Santos;4;3;Goiás;16/10/2023
+131;14;Fluminense;2;0;Internacional;16/10/2023
+135;14;Red Bull Bragantino;0;0;São Paulo;16/10/2023
+137;14;Grêmio;0;2;Botafogo;16/10/2023
+139;14;Fortaleza;1;0;Athletico;16/10/2023
+142;15;Botafogo;2;0;Red Bull Bragantino;16/10/2023
+146;15;Cruzeiro;0;0;Coritiba;16/10/2023
+141;15;Fluminense;0;0;Flamengo;16/10/2023
+143;15;São Paulo;4;1;Santos;16/10/2023
+149;15;Fortaleza;0;1;Cuiabá;16/10/2023
+147;15;Internacional;0;0;Palmeiras;16/10/2023
+148;15;Athletico;2;0;Bahia;16/10/2023
+145;15;Goiás;0;0;Atlético;16/10/2023
+144;15;Corinthians;4;4;Grêmio;16/10/2023
+150;15;América;0;1;Vasco da Gama;16/10/2023
+151;16;Flamengo;1;1;América;16/10/2023
+153;16;Palmeiras;3;1;Fortaleza;16/10/2023
+159;16;Bahia;0;0;Corinthians;16/10/2023
+160;16;Cuiabá;2;1;São Paulo;16/10/2023
+157;16;Grêmio;1;0;Atlético;16/10/2023
+154;16;Santos;2;2;Botafogo;16/10/2023
+155;16;Red Bull Bragantino;0;0;Internacional;16/10/2023
+156;16;Cruzeiro;0;1;Goiás;16/10/2023
+152;16;Vasco da Gama;0;2;Athletico;16/10/2023
+158;16;Coritiba;2;0;Fluminense;16/10/2023
+161;17;Fluminense;1;0;Santos;16/10/2023
+167;17;Internacional;1;2;Cuiabá;16/10/2023
+168;17;Athletico;3;3;Cruzeiro;16/10/2023
+164;17;Corinthians;3;1;Vasco da Gama;16/10/2023
+169;17;Fortaleza;0;3;Red Bull Bragantino;16/10/2023
+166;17;Atlético;1;2;Flamengo;16/10/2023
+163;17;São Paulo;0;0;Bahia;16/10/2023
+162;17;Botafogo;4;1;Coritiba;16/10/2023
+170;17;América;1;4;Palmeiras;16/10/2023
+165;17;Goiás;1;1;Grêmio;16/10/2023
+174;18;Santos;1;1;Athletico;16/10/2023
+175;18;Goiás;1;0;Fortaleza;16/10/2023
+177;18;Internacional;2;2;Corinthians;16/10/2023
+171;18;Fluminense;2;1;Palmeiras;16/10/2023
+172;18;Vasco da Gama;1;0;Grêmio;16/10/2023
+173;18;São Paulo;0;2;Atlético;16/10/2023
+176;18;Cruzeiro;0;0;Botafogo;16/10/2023
+178;18;Coritiba;0;1;Red Bull Bragantino;16/10/2023
+179;18;Bahia;3;1;América;16/10/2023
+180;18;Cuiabá;3;0;Flamengo;16/10/2023
+182;19;Botafogo;3;1;Internacional;16/10/2023
+186;19;Atlético;1;0;Bahia;16/10/2023
+184;19;Corinthians;3;1;Coritiba;16/10/2023
+187;19;Grêmio;2;1;Fluminense;16/10/2023
+190;19;América;0;1;Goiás;16/10/2023
+181;19;Flamengo;1;1;São Paulo;16/10/2023
+189;19;Fortaleza;4;0;Santos;16/10/2023
+183;19;Palmeiras;1;0;Cruzeiro;16/10/2023
+185;19;Red Bull Bragantino;1;1;Vasco da Gama;16/10/2023
+188;19;Athletico;2;0;Cuiabá;16/10/2023
+193;20;São Paulo;0;0;Botafogo;16/10/2023
+197;20;Internacional;0;1;Fortaleza;16/10/2023
+191;20;Fluminense;3;1;América;16/10/2023
+200;20;Cuiabá;0;2;Palmeiras;16/10/2023
+196;20;Cruzeiro;1;1;Corinthians;16/10/2023
+192;20;Vasco da Gama;1;0;Atlético;16/10/2023
+194;20;Santos;2;1;Grêmio;16/10/2023
+198;20;Coritiba;2;3;Flamengo;16/10/2023
+199;20;Bahia;4;0;Red Bull Bragantino;16/10/2023
+195;20;Goiás;1;1;Athletico;16/10/2023
+201;21;Flamengo;0;0;Internacional;16/10/2023
+204;21;Corinthians;1;1;Goiás;16/10/2023
+205;21;Red Bull Bragantino;2;0;Cuiabá;16/10/2023
+202;21;Botafogo;3;0;Bahia;16/10/2023
+210;21;América;2;1;São Paulo;16/10/2023
+206;21;Atlético;2;0;Santos;16/10/2023
+209;21;Fortaleza;3;1;Coritiba;16/10/2023
+203;21;Palmeiras;1;0;Vasco da Gama;16/10/2023
+208;21;Athletico;2;2;Fluminense;16/10/2023
+207;21;Grêmio;3;0;Cruzeiro;16/10/2023
+215;22;Goiás;0;0;Internacional;16/10/2023
+218;22;Athletico;1;1;Atlético;16/10/2023
+212;22;Botafogo;1;2;Flamengo;16/10/2023
+217;22;Grêmio;2;0;Cuiabá;16/10/2023
+211;22;Fluminense;1;0;Fortaleza;16/10/2023
+214;22;Corinthians;0;0;Palmeiras;16/10/2023
+216;22;Cruzeiro;0;0;Red Bull Bragantino;16/10/2023
+219;22;Bahia;1;1;Vasco da Gama;16/10/2023
+220;22;América;2;0;Santos;16/10/2023
+213;22;São Paulo;2;1;Coritiba;16/10/2023
+227;23;Internacional;2;1;São Paulo;16/10/2023
+221;23;Flamengo;0;3;Athletico;16/10/2023
+229;23;Fortaleza;2;1;Corinthians;16/10/2023
+224;23;Santos;0;3;Cruzeiro;16/10/2023
+228;23;Coritiba;2;4;Bahia;16/10/2023
+225;23;Red Bull Bragantino;2;0;Grêmio;16/10/2023
+230;23;Cuiabá;2;2;América;16/10/2023
+223;23;Palmeiras;1;0;Goiás;16/10/2023
+222;23;Vasco da Gama;4;2;Fluminense;16/10/2023
+226;23;Atlético;1;0;Botafogo;16/10/2023
+239;24;Bahia;1;2;Santos;16/10/2023
+240;24;América;0;2;Red Bull Bragantino;16/10/2023
+235;24;Goiás;0;0;Flamengo;16/10/2023
+233;24;São Paulo;1;2;Fortaleza;16/10/2023
+231;24;Fluminense;1;0;Cruzeiro;16/10/2023
+232;24;Vasco da Gama;5;1;Coritiba;16/10/2023
+238;24;Athletico;2;1;Internacional;16/10/2023
+237;24;Grêmio;1;0;Palmeiras;16/10/2023
+234;24;Corinthians;1;0;Botafogo;16/10/2023
+236;24;Atlético;1;0;Cuiabá;16/10/2023
+241;25;Flamengo;1;0;Bahia;16/10/2023
+249;25;Fortaleza;1;1;Grêmio;16/10/2023
+243;25;São Paulo;2;1;Corinthians;16/10/2023
+250;25;Cuiabá;3;0;Fluminense;16/10/2023
+247;25;Internacional;0;2;Atlético;16/10/2023
+244;25;Santos;4;1;Vasco da Gama;16/10/2023
+246;25;Cruzeiro;1;1;América;16/10/2023
+248;25;Coritiba;2;0;Athletico;16/10/2023
+245;25;Red Bull Bragantino;2;1;Palmeiras;16/10/2023
+242;25;Botafogo;1;1;Goiás;16/10/2023
+255;26;Goiás;4;6;Bahia;16/10/2023
+252;26;Vasco da Gama;0;0;São Paulo;16/10/2023
+254;26;Corinthians;1;1;Flamengo;16/10/2023
+251;26;Fluminense;0;2;Botafogo;16/10/2023
+253;26;Palmeiras;1;2;Santos;16/10/2023
+257;26;Internacional;3;2;Grêmio;16/10/2023
+256;26;Atlético;1;2;Coritiba;16/10/2023
+259;26;Fortaleza;3;2;América;16/10/2023
+258;26;Athletico;1;1;Red Bull Bragantino;16/10/2023
+260;26;Cuiabá;0;0;Cruzeiro;16/10/2023
+267;27;Grêmio;1;2;Athletico;16/10/2023
+270;27;América;1;2;Botafogo;16/10/2023
+268;27;Coritiba;0;3;Cuiabá;16/10/2023
+265;27;Goiás;2;0;São Paulo;16/10/2023
+262;27;Vasco da Gama;1;0;Fortaleza;16/10/2023
+269;27;Bahia;1;0;Internacional;16/10/2023
+263;27;Palmeiras;0;2;Atlético;16/10/2023
+266;27;Cruzeiro;0;2;Flamengo;16/10/2023
+264;27;Santos;1;3;Red Bull Bragantino;16/10/2023
+261;27;Fluminense;3;3;Corinthians;16/10/2023
+273;28;São Paulo;;;Grêmio;16/10/2023
+279;28;Bahia;;;Fortaleza;16/10/2023
+280;28;Cuiabá;;;Goiás;16/10/2023
+272;28;Botafogo;;;Athletico;16/10/2023
+271;28;Flamengo;;;Vasco da Gama;16/10/2023
+276;28;Atlético;;;Cruzeiro;16/10/2023
+277;28;Internacional;;;Santos;16/10/2023
+274;28;Corinthians;;;América;16/10/2023
+278;28;Coritiba;;;Palmeiras;16/10/2023
+275;28;Red Bull Bragantino;;;Fluminense;16/10/2023
+289;29;Fortaleza;;;Botafogo;16/10/2023
+285;29;Red Bull Bragantino;;;Atlético;16/10/2023
+281;29;Fluminense;;;Goiás;16/10/2023
+288;29;Athletico;;;América;16/10/2023
+283;29;Palmeiras;;;São Paulo;16/10/2023
+286;29;Cruzeiro;;;Bahia;16/10/2023
+290;29;Cuiabá;;;Corinthians;16/10/2023
+287;29;Grêmio;;;Flamengo;16/10/2023
+282;29;Vasco da Gama;;;Internacional;16/10/2023
+284;29;Santos;;;Coritiba;16/10/2023
+291;30;Flamengo;;;RB Bragantino;16/10/2023
+292;30;Botafogo;;;Cuiabá;16/10/2023
+293;30;Palmeiras;;;Bahia;16/10/2023
+294;30;Corinthians;;;Santos;16/10/2023
+295;30;Goiás;;;Vasco da Gama;16/10/2023
+296;30;Atlético;;;Fluminense;16/10/2023
+297;30;Internacional;;;Coritiba;16/10/2023
+298;30;Athletico;;;São Paulo;16/10/2023
+299;30;Fortaleza;;;Cruzeiro;16/10/2023
+300;30;América;;;Grêmio;16/10/2023
+301;31;Flamengo;;;Santos;16/10/2023
+302;31;Botafogo;;;Palmeiras;16/10/2023
+303;31;São Paulo;;;Cruzeiro;16/10/2023
+304;31;Corinthians;;;Athletico;16/10/2023
+305;31;Goiás;;;RB Bragantino;16/10/2023
+306;31;Atlético;;;Fortaleza;16/10/2023
+307;31;Internacional;;;América;16/10/2023
+308;31;Coritiba;;;Grêmio;16/10/2023
+309;31;Bahia;;;Fluminense;16/10/2023
+310;31;Cuiabá;;;Vasco da Gama;16/10/2023
+311;32;Fluminense;;;São Paulo;16/10/2023
+312;32;Vasco da Gama;;;Botafogo;16/10/2023
+313;32;Palmeiras;;;Athletico;16/10/2023
+314;32;Santos;;;Cuiabá;16/10/2023
+315;32;RB Bragantino;;;Corinthians;16/10/2023
+316;32;Cruzeiro;;; Internacional;16/10/2023
+317;32;Grêmio;;; Bahia;16/10/2023
+318;32;Coritiba;;; Goiás;16/10/2023
+319;32;Fortaleza;;; Flamengo;16/10/2023
+320;32;América;;; Atlético;16/10/2023
+321;33;Flamengo;;; Palmeiras;16/10/2023
+322;33;Botafogo;;; Grêmio;16/10/2023
+323;33;São Paulo;;; RB Bragantino;16/10/2023
+324;33;Corinthians;;; Atlético;16/10/2023
+325;33;Goiás;;; Santos;16/10/2023
+326;33;Cruzeiro;;; Vasco da Gama;16/10/2023
+327;33;Internacional;;; Fluminense;16/10/2023
+328;33;Athletico;;; Fortaleza;16/10/2023
+329;33;Bahia;;; Cuiabá;16/10/2023
+330;34;América;;; Coritiba;16/10/2023
+331;34;Flamengo;;; Fluminense;16/10/2023
+332;34;Vasco da Gama;;; América;16/10/2023
+333;34;Palmeiras;;; Internacional;16/10/2023
+334;34;Santos;;;São Paulo;16/10/2023
+335;34;RB Bragantino;;; Botafogo;16/10/2023
+336;34;Atlético;;; Goiás;16/10/2023
+337;34;Grêmio;;; Corinthians;16/10/2023
+338;34;Coritiba;;; Cruzeiro;16/10/2023
+339;34;Bahia;;; Athletico;16/10/2023
+340;34;Cuiabá;;; Fortaleza;16/10/2023
+341;35;Fluminense;;; Coritiba;16/10/2023
+342;35;Botafogo;;; Santos;16/10/2023
+343;35;São Paulo;;; Cuiabá;16/10/2023
+344;35;Corinthians;;; Bahia;16/10/2023
+345;35;Goiás;;; Cruzeiro;16/10/2023
+346;35;Atlético;;; Grêmio;16/10/2023
+347;35;Internacional;;; RB Bragantino;16/10/2023
+348;35;Athletico;;; Vasco da Gama;16/10/2023
+349;35;Fortaleza;;; Palmeiras;16/10/2023
+350;35;América;;; Flamengo;16/10/2023
+351;36;Flamengo;;; Atlético;16/10/2023
+352;36;Vasco da Gama;;; Corinthians;16/10/2023
+353;36;Palmeiras;;; América;16/10/2023
+354;36;Santos;;; Fluminense;16/10/2023
+355;36;RB Bragantino;;; Fortaleza;16/10/2023
+356;36;Cruzeiro;;; Athletico;16/10/2023
+357;36;Grêmio;;; Goiás;16/10/2023
+358;36;Coritiba;;; Botafogo;16/10/2023
+359;36;Bahia;;; São Paulo;16/10/2023
+360;36;Cuiabá;;; Internacional;16/10/2023
+361;37;Flamengo;;; Cuiabá;16/10/2023
+362;37;Botafogo;;; Cruzeiro;16/10/2023
+363;37;Palmeiras;;; Fluminense;16/10/2023
+364;37;Corinthians;;; Internacional;16/10/2023
+365;37;RB Bragantino;;; Coritiba;16/10/2023
+366;37;Atlético;;; São Paulo;16/10/2023
+367;37;Grêmio;;; Vasco da Gama;16/10/2023
+368;37;Athletico;;; Santos;16/10/2023
+369;37;Fortaleza;;; Goiás;16/10/2023
+370;37;América;;; Bahia;16/10/2023
+371;38;Fluminense;;; Grêmio;16/10/2023
+372;38;Vasco da Gama;;; RB Bragantino;16/10/2023
+373;38;São Paulo;;; Flamengo;16/10/2023
+374;38;Santos;;; Fortaleza;16/10/2023
+375;38;Goiás;;; América;16/10/2023
+376;38;Cruzeiro;;; Palmeiras;16/10/2023
+377;38;Internacional;;; Botafogo;16/10/2023
+378;38;Coritiba;;; Corinthians;16/10/2023
+379;38;Bahia;;; Atlético;16/10/2023
+380;38;Cuiabá;;; Athletico;16/10/2023
