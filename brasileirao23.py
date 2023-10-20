@@ -17,8 +17,7 @@ import streamlit as st
 pd.options.mode.chained_assignment = None
 
 #carregando a tabela
-#tabela_completa = pd.read_csv(r'C:\Users\DJK8\OneDrive - PETROBRAS\ROBERTO_SCHNEIDER_DJK8\estudos\br23\tabela_br23.csv', sep=';')
-tabela_completa = pd.read_csv('https://drive.google.com/file/d/1UYn8Am4-Itj0QtSJKmxYHG0ouH5wlgBE', sep=';')
+tabela_completa = pd.read_csv('https://raw.githubusercontent.com/betoschneider/br23/main/tabela_br23.csv', sep=';')
 
 
 #criando uma cópia para remover as partidas não realizadas
