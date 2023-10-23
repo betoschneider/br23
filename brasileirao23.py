@@ -147,7 +147,13 @@ col3, col4, col5 = st.columns(3)
 fig2 = px.line(tabela_consolidada, x='rodada_projecao', y='pontos_finais', color='time', title='Projeção final rodada a rodada')
 col1.plotly_chart(fig2, use_container_width=True)
 #grafico 1: projecao final
-fig1 = px.bar(tabela_consolidada[tabela_consolidada['rodada_projecao'] == max_rodada], x='pontos_finais', y='time', color='time', title='Projeção atual', orientation='h', text_auto=True)
+fig1 = px.bar(tabela_consolidada[tabela_consolidada['rodada_projecao'] == max_rodada], x='pontos_finais', y='time', color='time', 
+              title='Projeção atual', orientation='h', 
+              #text_auto=True,
+              text='pontos_finais'
+              )
+fig1.update_traces(textfont_size=12, textangle=0, textposition="outside", cliponaxis=False)
+
 #tabela_consolidada[df_consolidado['rodada_projecao'] == max_rodada]
 col2.plotly_chart(fig1, use_container_width=True)
 
