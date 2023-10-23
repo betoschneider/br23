@@ -184,3 +184,4 @@ str(int(tabela_consolidada_filtro['gols_marcados_total'].max())) + ' gols marcad
 str(int(tabela_consolidada_filtro['saldo_gols_total'].max())) + ' gols de saldo'
 , use_container_width=True)
 
+
