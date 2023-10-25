@@ -143,20 +143,27 @@ col3, col4, col5 = st.columns(3)
 
 # %%
 
+#cores das linhas e barras
+cores = px.colors.qualitative.Pastel + px.colors.qualitative.Pastel1
+
 #grafico 2: historico projecao
-fig2 = px.line(tabela_consolidada, x='rodada_projecao', y='pontos_finais', color='time', title='Projeção final rodada a rodada')
+fig2 = px.line(tabela_consolidada, x='rodada_projecao', y='pontos_finais', color='time',
+               title='Projeção final rodada a rodada', 
+               color_discrete_sequence=cores
+               )
 col1.plotly_chart(fig2, use_container_width=True)
 #grafico 1: projecao final
 fig1 = px.bar(tabela_consolidada[tabela_consolidada['rodada_projecao'] == max_rodada], x='pontos_finais', y='time', color='time', 
               title='Projeção atual', orientation='h', 
-              #text_auto=True,
-              text='pontos_finais'
+              text='pontos_finais',
+              color_discrete_sequence=cores
               )
-fig1.update_traces(textfont_size=12, textangle=0, textposition="outside", cliponaxis=False)
+fig1.update_traces(textfont_size=12, textangle=0, textposition="outside", cliponaxis=False) #rótulo de dados da barra
+fig1.update_yaxes(tickfont_size=11) #tamanho da fonte do rótulo do eixo y
+fig1.update_layout(showlegend=False)
 
 #tabela_consolidada[df_consolidado['rodada_projecao'] == max_rodada]
 col2.plotly_chart(fig1, use_container_width=True)
-
 
 #resultado por time
 col3.write('# %s' % (time) + '''
