@@ -40,13 +40,14 @@ st.set_page_config(layout='wide')
 st.header('Brasileirão 2023: Projeção de pontos na última rodada')
 st.markdown('###### Um exemplo de dashboard em Python com Streamlit  :sunglasses:')
 
-
+#barra lateral
 #filtros
 time = st.sidebar.selectbox('Time', tabela_consolidada['time'].unique())
 tabela_consolidada_filtro = tabela_consolidada[(tabela_consolidada['time']==time) & (tabela_consolidada['rodada_projecao']==max_rodada)]
 
 #resultado do filtro
 #resultado por time
+st.sidebar.header('', divider='grey')
 st.sidebar.header(str(time))
 st.sidebar.markdown(
     '''###### Realizado até a %sª rodada 
@@ -71,8 +72,9 @@ st.sidebar.markdown(
         %s pontos projetados
         ''' % (int(tabela_consolidada_filtro['pontos_finais'].max()))
 )
+st.sidebar.header('', divider='grey')
 
-
+#principal
 #colunas na página
 col1, col2 = st.columns(2)
 col3, col0 = st.columns(2)
