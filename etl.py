@@ -104,10 +104,33 @@ class ETL:
         tabela = None
         tabela_completa = None
         return tabela_consolidada
+    
+    def get_tabela_jacare(self):
+        import pandas as pd
+        tabela = self.get_tabela()
+
+        max_rodada = tabela['rodada_projecao'].max()
+
+        df_jacare = None
+        for i in range(max_rodada):
+            df_temp = tabela[(tabela['classificacao'] <= 2) & (tabela['rodada_projecao'] == i + 1)]
+
+            df_temp['pontos'] = df_temp['pontos_total'] + (38 - df_temp['rodada_projecao']) * 3
+
+            df_temp['pontos'] = df_temp.apply(lambda x: x['pontos_total'] if(x['classificacao'] == 1) else x['pontos'], axis=1)
+            df_temp = df_temp[['classificacao', 'pontos', 'rodada_projecao']]
+            df_temp.rename(columns={'rodada_projecao': 'rodada'}, inplace=True)
+
+            df_jacare = pd.concat([df_jacare, df_temp], ignore_index=True)
+
+        return df_jacare
+
 
 if __name__ == '__main__':
     #para testar a classe
     arquivo = 'https://raw.githubusercontent.com/betoschneider/br23/main/tabela_br23.csv'
     base = ETL(arquivo)
     tabela_consolidada = base.get_tabela()
+    tabela_jacare = base.get_tabela_jacare()
     print(tabela_consolidada.head())
+    print(tabela_jacare)
