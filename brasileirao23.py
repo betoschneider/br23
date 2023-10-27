@@ -24,6 +24,10 @@ max_rodada = int(tabela_consolidada['jogos_total'].max())
 ultima_projecao = tabela_consolidada[tabela_consolidada['rodada_projecao'] == max_rodada]
 ultima_projecao = ultima_projecao[['classificacao', 'time', 'pontos_finais']]
 
+#base boca de jacare
+tabela_jacare = base.get_tabela_jacare()
+tabela_jacare.rename(columns={'pontos_projecao': 'pontos', 'rodada_projecao': 'rodada'}, inplace=True)
+
 
 #visualização
 
@@ -77,8 +81,8 @@ st.sidebar.header('', divider='grey')
 #principal
 #colunas na página
 col1, col2 = st.columns(2)
-col3, col0 = st.columns(2)
-col4, col5, col6 = st.columns(3)
+col3, col4 = st.columns(2)
+
 
 #cores das linhas e barras
 cores = px.colors.qualitative.Pastel + px.colors.qualitative.Pastel1
@@ -106,5 +110,70 @@ fig2 = px.line(tabela_consolidada, x='rodada_projecao', y='pontos_finais', color
 fig2.update_layout(showlegend=False)
 col2.plotly_chart(fig2, use_container_width=True)
 
+#grafico 3: boca de jacare
+fig3 = px.line(tabela_jacare, x='rodada', y='pontos', color='classificacao',
+               color_discrete_sequence=cores,
+               labels={'rodada':'Rodada', 'pontos': 'Pontos'},
+               title='Líder x Pontuação máxima do 2º colocado'
+               )
+#rótulo de dados na última rodada
+ultima_rodada = tabela_jacare[(tabela_jacare['rodada']==max_rodada)] #df da última rodada
+p1 = int(ultima_rodada['pontos'].min()) #pontuação do 1o colocado
+p2 = int(ultima_rodada['pontos'].max()) #pontuação máxima do 2o colocado
+#titulo linha 1o colocado
+fig3.add_annotation(x=max_rodada / 2, y=p1, #adicionando o label: x=max_rodada / 2 (meio do campeonado realizado)
+            text='Pontuação do 1º colocado',
+            showarrow=False,
+            xshift=0,
+            yshift=-20,
+            font=dict(size=12, color=cores[0])
+            )
+#valor primeiro colocado
+fig3.add_annotation(x=max_rodada, y=p1, #adicionando o label na última rodada: x=max_rodada
+            text=str(p1),
+            showarrow=False,
+            xshift=20,
+            yshift=0,
+            font=dict(size=16, color=cores[0])
+            )
+#titulo 2o colocado
+fig3.add_annotation(x=max_rodada / 2, y=p2,
+            text='Pontuação máxima do 2º colocado',
+            showarrow=False,
+            xshift=0,
+            yshift=20,
+            font=dict(size=12, color=cores[1])
+            )
+#valor 2o colocado
+fig3.add_annotation(x=max_rodada, y=p2,
+            text=str(p2),
+            showarrow=False,
+            xshift=20,
+            yshift=0,
+            font=dict(size=16, color=cores[1])
+            )
+fig3.update_layout(showlegend=False)
+
+col3.plotly_chart(fig3, use_container_width=True)
+
+#cálculo de previsão do encontro das linhas
+#p2 previsão de pontos do 2o colocado nas próximas rodadas
+p2 = tabela_consolidada[(tabela_consolidada['rodada_projecao'] == max_rodada) & (tabela_consolidada['classificacao'] == 2)]
+p2 = int(p2['media_pontos_total'].max() * (38 - p2['jogos_total'].max()))
+
+#p1 número de rodadas que o lider precisa para atingir p2
+p1 = tabela_consolidada[(tabela_consolidada['rodada_projecao'] == max_rodada) & (tabela_consolidada['classificacao'] == 1)]
+p1 = int(p2 / p1['media_pontos_total'].max())
+
+#indicador com o resultado do cálculo
+fig4 = go.Figure()
+fig4.add_trace(go.Indicator(
+    mode='number',
+    value=p1,
+    title='Número de rodadas para as linhas se cruzarem'
+))
+col4.plotly_chart(fig4, use_container_width=True)
+
+
 #link
-st.link_button('Meu perfil no LinkedIn', 'https://www.linkedin.com/in/robertoschneider/')
+st.sidebar.link_button('Meu perfil no LinkedIn', 'https://www.linkedin.com/in/robertoschneider/')
