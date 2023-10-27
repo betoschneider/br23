@@ -163,14 +163,15 @@ p2 = int(p2['media_pontos_total'].max() * (38 - p2['jogos_total'].max()))
 
 #p1 número de rodadas que o lider precisa para atingir p2
 p1 = tabela_consolidada[(tabela_consolidada['rodada_projecao'] == max_rodada) & (tabela_consolidada['classificacao'] == 1)]
-p1 = int(p2 / p1['media_pontos_total'].max())
+no_jogos_lider = p1['jogos_total'].max()
+p1 = int(p2 / p1['media_pontos_total'].max() + no_jogos_lider)
 
 #indicador com o resultado do cálculo
 fig4 = go.Figure()
 fig4.add_trace(go.Indicator(
     mode='number',
     value=p1,
-    title='Número de rodadas para as linhas se cruzarem'
+    title='Rodada de confirmação do título'
 ))
 col4.plotly_chart(fig4, use_container_width=True)
 
