@@ -171,7 +171,7 @@ fig4 = go.Figure()
 fig4.add_trace(go.Indicator(
     mode='number',
     value=p1,
-    title='Rodada de confirmação do título'
+    title='Provável rodada<br>de confirmação do título'
 ))
 col4.plotly_chart(fig4, use_container_width=True)
 
