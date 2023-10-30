@@ -73,10 +73,10 @@ st.sidebar.markdown(
 )
 st.sidebar.markdown(
         '''###### Projeção para última rodada
-        %s pontos projetados
+        %s pontos projetados  
         %sº colocado
         ''' % (int(tabela_consolidada_filtro['pontos_finais'].max()),
-        int(tabela_consolidada_filtro['classificacao_projecao'].max()))
+        int(tabela_consolidada_filtro['classificacao_projetada'].max()))
 )
 st.sidebar.header('', divider='grey')
 
