@@ -69,7 +69,10 @@ class ETL:
             df_consolidado['saldo_gols_visitante'] = df_consolidado['gols_marcados_visitante'] - df_consolidado['gols_sofridos_visitante']
             df_consolidado['saldo_gols_total'] = df_consolidado['saldo_gols_mandante'] + df_consolidado['saldo_gols_visitante']
             #ordenando a tabela consolidada
-            df_consolidado.sort_values(by=['pontos_total', 'vitoria_total', 'saldo_gols_total', 'gols_marcados_total'], ascending=False, inplace=True)
+            df_consolidado.sort_values(by=['pontos_total', 'vitoria_total', 'saldo_gols_total', 'gols_marcados_total'], 
+                                       ascending=False,
+                                       inplace=True
+                                       )
             df_consolidado = df_consolidado.reset_index().reset_index()
             df_consolidado['classificacao'] = df_consolidado['level_0'] + 1
             df_consolidado.drop(columns=['level_0', 'index'], inplace=True)
@@ -91,7 +94,7 @@ class ETL:
             df_consolidado['pontos_finais'] = df_consolidado['pontos_projetados'] + df_consolidado['pontos_total']
             df_consolidado.sort_values(by='pontos_finais', ascending=False, inplace=True)
             df_consolidado = df_consolidado.reset_index().reset_index()
-            df_consolidado['classificacao'] = df_consolidado['level_0'] + 1
+            df_consolidado['classificacao_projetada'] = df_consolidado['level_0'] + 1
             df_consolidado.drop(columns=['level_0', 'index'], inplace=True)
             df_consolidado['rodada_projecao'] = i + 1
 
