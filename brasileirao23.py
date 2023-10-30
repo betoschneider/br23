@@ -172,9 +172,9 @@ fig4.add_trace(go.Indicator(
     mode='number',
     value=p1,
     title='Provável rodada<br>de confirmação do título'
-))
+    )
+)
 col4.plotly_chart(fig4, use_container_width=True)
-
 
 #link
 st.sidebar.link_button('Meu perfil no LinkedIn', 'https://www.linkedin.com/in/robertoschneider/')
