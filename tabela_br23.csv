@@ -310,15 +310,15 @@
 309;31;Bahia;1;0;Fluminense;16/10/2023
 310;31;Cuiabá;0;2;Vasco da Gama;16/10/2023
 311;32;Fluminense;;;São Paulo;16/10/2023
-312;32;Vasco da Gama;;;Botafogo;16/10/2023
-313;32;Palmeiras;;;Athletico;16/10/2023
-314;32;Santos;;;Cuiabá;16/10/2023
-315;32;RB Bragantino;;;Corinthians;16/10/2023
-316;32;Cruzeiro;;; Internacional;16/10/2023
-317;32;Grêmio;;; Bahia;16/10/2023
-318;32;Coritiba;;; Goiás;16/10/2023
-319;32;Fortaleza;;; Flamengo;16/10/2023
-320;32;América;;; Atlético;16/10/2023
+312;32;Vasco da Gama;1;0;Botafogo;16/10/2023
+313;32;Palmeiras;1;0;Athletico;16/10/2023
+314;32;Santos;0;0;Cuiabá;16/10/2023
+315;32;RB Bragantino;1;0;Corinthians;16/10/2023
+316;32;Cruzeiro;1;2; Internacional;16/10/2023
+317;32;Grêmio;1;0; Bahia;16/10/2023
+318;32;Coritiba;0;1; Goiás;16/10/2023
+319;32;Fortaleza;0;2; Flamengo;16/10/2023
+320;32;América;1;1; Atlético;16/10/2023
 321;33;Flamengo;;; Palmeiras;16/10/2023
 322;33;Botafogo;;; Grêmio;16/10/2023
 323;33;São Paulo;;; RB Bragantino;16/10/2023
