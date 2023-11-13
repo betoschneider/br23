@@ -329,16 +329,16 @@
 328;33;Athletico;1;1;Fortaleza;16/10/2023
 329;33;Bahia;0;3;Cuiabá;16/10/2023
 330;33;América;0;3;Coritiba;16/10/2023
-331;34;Flamengo;;;Fluminense;16/10/2023
-332;34;Vasco da Gama;;;América;16/10/2023
-333;34;Palmeiras;;;Internacional;16/10/2023
-334;34;Santos;;;São Paulo;16/10/2023
-335;34;Red Bull Bragantino;;;Botafogo;16/10/2023
-336;34;Atlético;;;Goiás;16/10/2023
-337;34;Grêmio;;;Corinthians;16/10/2023
-338;34;Coritiba;;;Cruzeiro;16/10/2023
-339;34;Bahia;;;Athletico;16/10/2023
-340;34;Cuiabá;;;Fortaleza;16/10/2023
+331;34;Flamengo;1;1;Fluminense;16/10/2023
+332;34;Vasco da Gama;2;1;América;16/10/2023
+333;34;Palmeiras;3;0;Internacional;16/10/2023
+334;34;Santos;0;0;São Paulo;16/10/2023
+335;34;Red Bull Bragantino;2;2;Botafogo;16/10/2023
+336;34;Atlético;2;1;Goiás;16/10/2023
+337;34;Grêmio;0;1;Corinthians;16/10/2023
+338;34;Coritiba;1;0;Cruzeiro;16/10/2023
+339;34;Bahia;1;1;Athletico;16/10/2023
+340;34;Cuiabá;2;1;Fortaleza;16/10/2023
 341;35;Fluminense;;;Coritiba;16/10/2023
 342;35;Botafogo;;;Santos;16/10/2023
 343;35;São Paulo;;;Cuiabá;16/10/2023
