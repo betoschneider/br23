@@ -279,7 +279,7 @@
 274;28;Corinthians;1;1;América;16/10/2023
 278;28;Coritiba;0;2;Palmeiras;16/10/2023
 275;28;Red Bull Bragantino;1;0;Fluminense;16/10/2023
-289;29;Fortaleza;;;Botafogo;16/10/2023
+289;29;Fortaleza;2;2;Botafogo;16/10/2023
 285;29;Red Bull Bragantino;1;2;Atlético;16/10/2023
 281;29;Fluminense;5;3;Goiás;16/10/2023
 288;29;Athletico;3;2;América;16/10/2023
@@ -289,7 +289,7 @@
 287;29;Grêmio;3;2;Flamengo;16/10/2023
 282;29;Vasco da Gama;1;2;Internacional;16/10/2023
 284;29;Santos;2;1;Coritiba;16/10/2023
-291;30;Flamengo;;;Red Bull Bragantino;16/10/2023
+291;30;Flamengo;0;1;Red Bull Bragantino;16/10/2023
 292;30;Botafogo;0;1;Cuiabá;16/10/2023
 293;30;Palmeiras;1;0;Bahia;16/10/2023
 294;30;Corinthians;1;1;Santos;16/10/2023
@@ -339,16 +339,16 @@
 338;34;Coritiba;1;0;Cruzeiro;16/10/2023
 339;34;Bahia;1;1;Athletico;16/10/2023
 340;34;Cuiabá;2;1;Fortaleza;16/10/2023
-341;35;Fluminense;;;Coritiba;16/10/2023
-342;35;Botafogo;;;Santos;16/10/2023
-343;35;São Paulo;;;Cuiabá;16/10/2023
-344;35;Corinthians;;;Bahia;16/10/2023
-345;35;Goiás;;;Cruzeiro;16/10/2023
-346;35;Atlético;;;Grêmio;16/10/2023
-347;35;Internacional;;;Red Bull Bragantino;16/10/2023
-348;35;Athletico;;;Vasco da Gama;16/10/2023
-349;35;Fortaleza;;;Palmeiras;16/10/2023
-350;35;América;;;Flamengo;16/10/2023
+341;35;Fluminense;2;1;Coritiba;16/10/2023
+342;35;Botafogo;1;1;Santos;16/10/2023
+343;35;São Paulo;0;0;Cuiabá;16/10/2023
+344;35;Corinthians;1;5;Bahia;16/10/2023
+345;35;Goiás;0;1;Cruzeiro;16/10/2023
+346;35;Atlético;3;0;Grêmio;16/10/2023
+347;35;Internacional;1;0;Red Bull Bragantino;16/10/2023
+348;35;Athletico;0;0;Vasco da Gama;16/10/2023
+349;35;Fortaleza;2;2;Palmeiras;16/10/2023
+350;35;América;0;3;Flamengo;16/10/2023
 351;36;Flamengo;;;Atlético;16/10/2023
 352;36;Vasco da Gama;;;Corinthians;16/10/2023
 353;36;Palmeiras;;;América;16/10/2023
